@@ -1,1 +1,47 @@
+* {
+    box-sizing: box-border
+}
 
+span {
+    font-family: lucida sans regular;
+    font-size: 20px;
+    margin: 50x;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.semaforo {
+    display: flex;
+    width: 180px;
+    height: 680px;
+    background-color: black;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.semaforo div.aberto {
+    border-radius: 100%;
+    background-color: gray;
+    width: 180px;
+    height: 180px;
+    
+}
+.semaforo div.aguarde {
+    border-radius: 100%;
+    background-color: gray;
+    width: 180px;
+    height: 180px;
+}
+.semaforo div.fechado {
+    border-radius: 100%;
+    background-color: gray;
+    width: 180px;
+    height: 180px;
+}
